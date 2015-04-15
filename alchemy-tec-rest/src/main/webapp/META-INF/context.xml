@@ -1,0 +1,7 @@
+<Context>
+	<Resource name="jdbc/alchemy" auth="Container" type="javax.sql.DataSource"
+		defaultAutoCommit="false" maxActive="50" maxIdle="30" maxWait="10000"
+		username="tester" password="tester" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/alchemy" />
+
+</Context>
